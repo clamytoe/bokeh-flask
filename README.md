@@ -17,6 +17,7 @@ cd
 mkdir Projects
 cd Projects
 git clone https://github.com/clamytoe/bokeh-flask.git
+cd bokeh-flask
 python3.6 -m venv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
